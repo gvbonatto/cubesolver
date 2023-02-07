@@ -1,0 +1,224 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  font-family: arial, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  background-color: #4717f6;
+  color: white;
+}
+
+main {
+  height: 674px;
+  background-color: #0E0B16;
+  padding: 5px;
+}
+
+#white {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-left: 325px;
+}
+#blue {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-left: 325px;
+}
+#yellow {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-left: 325px;
+}
+#green {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-left: 325px;
+}
+#orange {
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin-left: 445px;
+  float: left;
+}
+#red {
+  display: block;
+  position: absolute;
+  margin-left: 205px;
+  width: 120px;
+  height: 120px;
+  float:left;
+}
+
+#sticker1,#sticker2,#sticker3,#sticker4,#sticker5,#sticker6,#sticker7,#sticker8,#sticker9,
+#sticker10,#sticker11,#sticker12,#sticker13,#sticker14,#sticker15,#sticker16,#sticker17,#sticker18,
+#sticker19,#sticker20,#sticker21,#sticker22,#sticker23,#sticker24,#sticker25,#sticker26,#sticker27,
+#sticker28,#sticker29,#sticker30,#sticker31,#sticker32,#sticker33,#sticker34,#sticker35,#sticker36,
+#sticker37,#sticker38,#sticker39,#sticker40,#sticker41,#sticker42,#sticker43,#sticker44,#sticker45,
+#sticker46,#sticker47,#sticker48,#sticker49,#sticker50,#sticker51,#sticker52,#sticker53,#sticker54
+{
+  transition: 0.45s;
+  float: left;
+  border: 1px solid gray;
+  width: 38px;
+  height: 38px;
+}
+
+div.c1 {
+  background-color: #F5FFFA;
+}
+div.c2 {
+  background-color: #000080;
+}
+div.c3 {
+  background-color: #FFD700;
+}
+div.c6{
+  background-color: #73fa19	;
+}
+div.c4{
+  background-color: #FF8C00;
+}
+div.c5{
+  background-color: #DC143C;
+}
+
+#sticker1:hover,#sticker2:hover,#sticker3:hover,#sticker4:hover,#sticker5:hover,#sticker6:hover,#sticker7:hover,#sticker8:hover,#sticker9:hover,
+#sticker10:hover,#sticker11:hover,#sticker12:hover,#sticker13:hover,#sticker14:hover,#sticker15:hover,#sticker16:hover,#sticker17:hover,#sticker18:hover,
+#sticker19:hover,#sticker20:hover,#sticker21:hover,#sticker22:hover,#sticker23:hover,#sticker24:hover,#sticker25:hover,#sticker26:hover,#sticker27:hover,
+#sticker28:hover,#sticker29:hover,#sticker30:hover,#sticker31:hover,#sticker32:hover,#sticker33:hover,#sticker34:hover,#sticker35:hover,#sticker36:hover,
+#sticker37:hover,#sticker38:hover,#sticker39:hover,#sticker40:hover,#sticker41:hover,#sticker42:hover,#sticker43:hover,#sticker44:hover,#sticker45:hover,
+#sticker46:hover,#sticker47:hover,#sticker48:hover,#sticker49:hover,#sticker50:hover,#sticker51:hover,#sticker52:hover,#sticker53:hover,#sticker54:hover {
+  border-radius: 15px;
+  filter: brightness(55%);
+  cursor:pointer;
+}
+
+#sticker55:hover,#sticker56:hover,#sticker57:hover,#sticker58:hover,#sticker59:hover,#sticker60:hover {
+  border-radius: 10px;
+  cursor:pointer;
+}
+
+#moveF, #moveT, #moveR, #moveL, #moveB, #moveBac, #moveTac, #moveLac, #moveRac, #moveFac {
+  background-color: #4717F6;
+  border: 3px solid #0E0B16;
+  color: white;
+  width: 140px;
+  height: 70px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+#moveF:hover, #moveL:hover, #moveR:hover, #moveB:hover, #moveT:hover, #moveFac:hover, #moveLac:hover, #moveRac:hover, #moveBac:hover, #moveTac:hover   {
+  background-color: white;
+  color: black;
+  border: 3px solid #4717F6;
+}
+
+#moveF {
+  margin-left: 100px;
+}
+
+#moveFac {
+  margin-left: 605px;
+}
+#sticker55 {
+  margin-left: 265px;
+}
+#cores {
+  margin-top: 130px;
+  margin-left: 570px;
+  float: left;
+  position: absolute;
+}
+
+#SendCode {
+  background-color: #4717F6;
+  border: 2px solid black;
+  color: white;
+  width: 93px;
+  font-weight: bold;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display: block;
+  float: left;
+  position: relative;
+
+}
+
+#whiteCross, #whiteSide, #meios, #yellowCross, #yellowside, #organizar_cantos, #final_step{
+  background-color: #4717F6;
+  border: 2px solid black;
+  color: white;
+  width: 93px;
+  font-weight: bold;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display: block;
+  float: left;
+  position: relative;
+
+}
+
+#whiteCross:hover, #whiteSide:hover, #meios:hover, #yellowCross:hover, #yellowside:hover, #organizar_cantos:hover, #final_step:hover, #SendCode:hover{
+  border-radius: 30px;
+  cursor:pointer;
+}
+
+.resolver {
+  float:left;
+  margin-left: 145px;
+  display: inline-block;
+  position: absolute;
+}
+
+#comandos {
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  width: auto;
+  position: absolute;
+  margin-top: 44px;
+  margin-left: 192px;
+  border: 2px solid purple;
+}
+
+.buttonsanticlockwise {
+  position: absolute;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.buttonsclockwise {
+  margin-left: 515px;
+}
+
+#sticker55,#sticker56,#sticker57,#sticker58,#sticker59,#sticker60 {
+  border: 2px solid black;
+  float: left;
+  height: 45px;
+  width: 45px;
+}

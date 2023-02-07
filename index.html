@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="/CSS/main.css" rel="stylesheet" type="text/css">
+    <title>Cube Solver</title>
+  </head>
+  <body>
+    <header>
+      <h1>Fëanor</h1>
+    </header>
+    <main>
+
+      <div id="green">
+        <div data-field="1" class="c6" id="sticker46" onClick="click_(this.id)"></div>
+        <div data-field="2" class="c6" id="sticker47" onClick="click_(this.id)"></div>
+        <div data-field="3" class="c6" id="sticker48" onClick="click_(this.id)"></div>
+        <div data-field="4" class="c6" id="sticker49" onClick="click_(this.id)"></div>
+        <div data-field="5" class="c6" id="sticker50"></div>
+        <div data-field="6" class="c6" id="sticker51" onClick="click_(this.id)"></div>
+        <div data-field="7" class="c6" id="sticker52" onClick="click_(this.id)"></div>
+        <div data-field="8" class="c6" id="sticker53" onClick="click_(this.id)"></div>
+        <div data-field="9" class="c6" id="sticker54" onClick="click_(this.id)"></div>
+      </div>
+      <div class="FF">
+        <div id="red">
+          <div data-field="1" class="c5" id="sticker37" onClick="click_(this.id)"></div>
+          <div data-field="2" class="c5" id="sticker38" onClick="click_(this.id)"></div>
+          <div data-field="3" class="c5" id="sticker39" onClick="click_(this.id)"></div>
+          <div data-field="4" class="c5" id="sticker40" onClick="click_(this.id)"></div>
+          <div data-field="5" class="c5" id="sticker41" ></div>
+          <div data-field="6" class="c5" id="sticker42" onClick="click_(this.id)"></div>
+          <div data-field="7" class="c5" id="sticker43" onClick="click_(this.id)"></div>
+          <div data-field="8" class="c5" id="sticker44" onClick="click_(this.id)"></div>
+          <div data-field="9" class="c5" id="sticker45" onClick="click_(this.id)"></div>
+        </div>
+        <div id="orange">
+          <div data-field="1" class="c4" id="sticker28" onClick="click_(this.id)"></div>
+          <div data-field="2" class="c4" id="sticker29" onClick="click_(this.id)"></div>
+          <div data-field="3" class="c4" id="sticker30" onClick="click_(this.id)"></div>
+          <div data-field="4" class="c4" id="sticker31" onClick="click_(this.id)"></div>
+          <div data-field="5" class="c4" id="sticker32" ></div>
+          <div data-field="6" class="c4" id="sticker33" onClick="click_(this.id)"></div>
+          <div data-field="7" class="c4" id="sticker34" onClick="click_(this.id)"></div>
+          <div data-field="8" class="c4" id="sticker35" onClick="click_(this.id)"></div>
+          <div data-field="9" class="c4" id="sticker36" onClick="click_(this.id)"></div>
+        </div>
+        <div id="white">
+          <div data-field="1" class="c1" id="sticker1" onClick="click_(this.id)"></div>
+          <div data-field="2" class="c1" id="sticker2" onClick="click_(this.id)"></div>
+          <div data-field="3" class="c1" id="sticker3" onClick="click_(this.id)"></div>
+          <div data-field="4" class="c1" id="sticker4" onClick="click_(this.id)"></div>
+          <div data-field="5" class="c1" id="sticker5"></div>
+          <div data-field="6" class="c1" id="sticker6" onClick="click_(this.id)"></div>
+          <div data-field="7" class="c1" id="sticker7" onClick="click_(this.id)"></div>
+          <div data-field="8" class="c1" id="sticker8" onClick="click_(this.id)"></div>
+          <div data-field="9" class="c1" id="sticker9" onClick="click_(this.id)"></div>
+
+
+          <div class="resolver">
+            <button id="whiteCross" onclick="whiteCross()">Cruz</button>
+            <button id="whiteSide" onclick="whiteSide()">Cantos</button>
+            <button id="meios" onclick="meios()">Meios</button>
+            <button id="yellowCross" onclick="yellowCross()">Cruz Amarela</button>
+            <button id="yellowside" onclick="yellowSide()">Cantos Amarelos</button>
+            <button id="organizar_cantos" onclick="organizar_cantos()">Organizar Cantos</button>
+            <button id="final_step" onclick="final_step()">Minerva</button>
+            <button id="SendCode">Mandar para o Fëanor</button>
+          </div>
+          <textarea id="comandos" rows="8" cols="90" readonly></textarea>
+        </div>
+      </div>
+      <div id="cores">
+        <div class="c1" id="sticker55" onClick = "click1(this.className)"></div>
+        <div class="c2" id="sticker56" onClick = "click1(this.className)"></div>
+        <div class="c3" id="sticker57" onClick = "click1(this.className)"></div>
+        <div class="c4" id="sticker58" onClick = "click1(this.className)"></div>
+        <div class="c5" id="sticker59" onClick = "click1(this.className)"></div>
+        <div class="c6" id="sticker60" onClick = "click1(this.className)"></div>
+      </div>
+      <div id ="blue">
+        <div data-field="1" class="c2" id="sticker10" onClick="click_(this.id)"></div>
+        <div data-field="2" class="c2" id="sticker11" onClick="click_(this.id)"></div>
+        <div data-field="3" class="c2" id="sticker12" onClick="click_(this.id)"></div>
+        <div data-field="4" class="c2" id="sticker13" onClick="click_(this.id)"></div>
+        <div data-field="5" class="c2" id="sticker14"></div>
+        <div data-field="6" class="c2" id="sticker15" onClick="click_(this.id)"></div>
+        <div data-field="7" class="c2" id="sticker16" onClick="click_(this.id)"></div>
+        <div data-field="8" class="c2" id="sticker17" onClick="click_(this.id)"></div>
+        <div data-field="9" class="c2" id="sticker18" onClick="click_(this.id)"></div>
+      </div>
+      <div id="yellow">
+        <div data-field="1" class="c3" id="sticker19" onClick="click_(this.id)"></div>
+        <div data-field="2" class="c3" id="sticker20" onClick="click_(this.id)"></div>
+        <div data-field="3" class="c3" id="sticker21" onClick="click_(this.id)"></div>
+        <div data-field="4" class="c3" id="sticker22" onClick="click_(this.id)"></div>
+        <div data-field="5" class="c3" id="sticker23"></div>
+        <div data-field="6" class="c3" id="sticker24" onClick="click_(this.id)"></div>
+        <div data-field="7" class="c3" id="sticker25" onClick="click_(this.id)"></div>
+        <div data-field="8" class="c3" id="sticker26" onClick="click_(this.id)"></div>
+        <div data-field="9" class="c3" id="sticker27" onClick="click_(this.id)"></div>
+      </div>
+      <div class="buttonsclockwise">
+        <button id="moveF" onclick="moveFront()">Mover Frente</button>
+        <button id="moveR" onclick="moveRight()">Mover Direita</button>
+        <button id="moveL" onclick="moveLeft()">Mover Esquerda</button>
+        <button id="moveB" onclick="moveBottom()">Mover Baixo</button>
+        <button id="moveT" onclick="moveBack()">Mover Trás</button>
+      </div>
+      <div class="buttonsanticlockwise">
+        <button id="moveFac" onclick="moveFrontac()">Voltar Frente</button>
+        <button id="moveRac" onclick="moveRightac()">Voltar Direita</button>
+        <button id="moveLac" onclick="moveLeftac()">Voltar Esquerda</button>
+        <button id="moveBac" onclick="moveBottomac()">Voltar Baixo</button>
+        <button id="moveTac" onclick="moveBackac()">Voltar Trás</button>
+      </div>
+    </main>
+    <script type="text/javascript" src="/JS/main.js"></script>
+    <script type="text/javascript" src="/JS/Solver.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/JS/front.js"></script>
+  </body>
+</html>
